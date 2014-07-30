@@ -1,0 +1,239 @@
+object DownParamForm: TDownParamForm
+  Left = 273
+  Top = 197
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = #12480#12454#12531#20778#20808#24230#35373#23450
+  ClientHeight = 273
+  ClientWidth = 580
+  Color = clBtnFace
+  Font.Charset = SHIFTJIS_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 12
+  object Label1: TLabel
+    Left = 16
+    Top = 20
+    Width = 492
+    Height = 12
+    Caption = #12480#12454#12531#23550#35937#12364#35079#25968#12354#12427#22580#21512#12395#12393#12428#12434#20778#20808#12377#12427#12363#12398#35373#23450#12434#22793#26356#12375#12414#12377#65288#26908#32034#30011#38754#12391#12398#12480#12454#12531#20778#20808#24230#65289
+    Font.Charset = SHIFTJIS_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = #65325#65331' '#65328#12468#12471#12483#12463
+    Font.Style = [fsUnderline]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 108
+    Top = 68
+    Width = 49
+    Height = 12
+    Alignment = taRightJustify
+    Caption = #12469#12452#12474'(&S)'
+    FocusControl = SizeBar
+    Layout = tlCenter
+  end
+  object Label3: TLabel
+    Left = 191
+    Top = 68
+    Width = 78
+    Height = 12
+    Alignment = taRightJustify
+    Caption = #23567#12373#12356#12418#12398#20778#20808
+    Layout = tlCenter
+  end
+  object Label4: TLabel
+    Left = 474
+    Top = 68
+    Width = 79
+    Height = 12
+    Caption = #22823#12365#12356#12418#12398#20778#20808
+    Layout = tlCenter
+  end
+  object Label5: TLabel
+    Left = 65
+    Top = 108
+    Width = 92
+    Height = 12
+    Alignment = taRightJustify
+    Caption = #20445#25345#12502#12525#12483#12463#37327'(&B)'
+    FocusControl = BlockBar
+    Layout = tlCenter
+  end
+  object Label6: TLabel
+    Left = 197
+    Top = 108
+    Width = 72
+    Height = 12
+    Alignment = taRightJustify
+    Caption = #20206#24819#12461#12540#20778#20808
+    Layout = tlCenter
+  end
+  object Label7: TLabel
+    Left = 474
+    Top = 108
+    Width = 72
+    Height = 12
+    Caption = #23436#20840#12461#12540#20778#20808
+    Layout = tlCenter
+  end
+  object Label8: TLabel
+    Left = 105
+    Top = 148
+    Width = 52
+    Height = 12
+    Alignment = taRightJustify
+    Caption = #21442#29031#37327'(&R)'
+    FocusControl = ReferBar
+    Layout = tlCenter
+  end
+  object Label9: TLabel
+    Left = 189
+    Top = 148
+    Width = 80
+    Height = 12
+    Alignment = taRightJustify
+    Caption = #23569#12394#12356#12418#12398#20778#20808
+    Layout = tlCenter
+  end
+  object Label10: TLabel
+    Left = 474
+    Top = 148
+    Width = 69
+    Height = 12
+    Caption = #22810#12356#12418#12398#20778#20808
+    Layout = tlCenter
+  end
+  object Label11: TLabel
+    Left = 94
+    Top = 184
+    Width = 63
+    Height = 12
+    Alignment = taRightJustify
+    Caption = #26356#26032#26178#21051'(&T)'
+    FocusControl = TimeBar
+    Layout = tlCenter
+  end
+  object Label12: TLabel
+    Left = 200
+    Top = 184
+    Width = 69
+    Height = 12
+    Alignment = taRightJustify
+    Caption = #21476#12356#12418#12398#20778#20808
+    Layout = tlCenter
+  end
+  object Label13: TLabel
+    Left = 474
+    Top = 184
+    Width = 78
+    Height = 12
+    Caption = #26032#12375#12356#12418#12398#20778#20808
+    Layout = tlCenter
+  end
+  object SizeBar: TTrackBar
+    Left = 276
+    Top = 56
+    Width = 189
+    Height = 37
+    Max = 100
+    Min = -100
+    Orientation = trHorizontal
+    PageSize = 1
+    Frequency = 50
+    Position = 0
+    SelEnd = 0
+    SelStart = 0
+    TabOrder = 0
+    TickMarks = tmTopLeft
+    TickStyle = tsAuto
+  end
+  object BlockBar: TTrackBar
+    Left = 276
+    Top = 96
+    Width = 189
+    Height = 37
+    Max = 100
+    Min = -100
+    Orientation = trHorizontal
+    PageSize = 1
+    Frequency = 50
+    Position = 0
+    SelEnd = 0
+    SelStart = 0
+    TabOrder = 1
+    TickMarks = tmTopLeft
+    TickStyle = tsAuto
+  end
+  object ReferBar: TTrackBar
+    Left = 276
+    Top = 136
+    Width = 189
+    Height = 37
+    Max = 100
+    Min = -100
+    Orientation = trHorizontal
+    PageSize = 1
+    Frequency = 50
+    Position = 0
+    SelEnd = 0
+    SelStart = 0
+    TabOrder = 2
+    TickMarks = tmTopLeft
+    TickStyle = tsAuto
+  end
+  object TimeBar: TTrackBar
+    Left = 276
+    Top = 172
+    Width = 189
+    Height = 37
+    Max = 100
+    Min = -100
+    Orientation = trHorizontal
+    PageSize = 1
+    Frequency = 50
+    Position = 0
+    SelEnd = 0
+    SelStart = 0
+    TabOrder = 3
+    TickMarks = tmTopLeft
+    TickStyle = tsAuto
+  end
+  object OkButton: TButton
+    Left = 352
+    Top = 232
+    Width = 93
+    Height = 25
+    Caption = #35373#23450'(&U)'
+    Default = True
+    TabOrder = 5
+    OnClick = OkButtonClick
+  end
+  object CancelButton: TButton
+    Left = 460
+    Top = 232
+    Width = 93
+    Height = 25
+    Cancel = True
+    Caption = #38281#12376#12427'(&C)'
+    TabOrder = 6
+    OnClick = CancelButtonClick
+  end
+  object ClearButton: TButton
+    Left = 24
+    Top = 232
+    Width = 137
+    Height = 25
+    Caption = #20559#12426#28961#12375#12395#12463#12522#12450'(&I)'
+    TabOrder = 4
+    OnClick = ClearButtonClick
+  end
+end

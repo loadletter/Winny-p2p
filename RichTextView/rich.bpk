@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="rich.bpl"/>
+    <OBJFILES value="rich.obj RichTextView.obj"/>
+    <RESFILES value="rich.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="rtl.lib"/>
+    <PACKAGES value="vclx.bpi vcl.bpi rtl.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="rich.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpp -x -Gn -Gl -Gi"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="rich.res" FORMNAME="" UNITNAME="rich.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rich.cpp" FORMNAME="" UNITNAME="rich.cpp" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RichTextView.pas" FORMNAME="" UNITNAME="RichTextView" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vclx.bpi" FORMNAME="" UNITNAME="vclx" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vcl.bpi" FORMNAME="" UNITNAME="vcl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1041
+CodePage=932
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Projects\Bpl\dclusr60.bpl=Borland User Components
+c:\program files\borland\cbuilder6\Projects\Bpl\rich.bpl=rich
+c:\program files\borland\cbuilder6\Bin\dcl31w60.bpl=Delphi 1.0 Compatibility Components
+C:\Program Files\Borland\CBuilder6\Bin\bcbie60.bpl=Borland C++Builder Internet Explorer 5 Components Package
+C:\Program Files\Borland\CBuilder6\Bin\dbx60.bpl=Borland SQL Explorer UI Package
+c:\program files\borland\cbuilder6\Bin\applet60.bpl=Borland Control Panel Applet Package
+c:\program files\borland\cbuilder6\Bin\dclsmpedit60.bpl=Borland Editor Script Enhancements
+c:\program files\borland\cbuilder6\Bin\dclemacsedit60.bpl=Borland Editor Emacs Enhancements
+c:\program files\borland\cbuilder6\Bin\dclact60.bpl=Borland ActionBar Components
+c:\program files\borland\cbuilder6\Bin\idefilters60.bpl=IDE Filters
+c:\program files\borland\cbuilder6\Bin\dclmlwiz60.bpl=Borland Markup Language Wizards
+c:\program files\borland\cbuilder6\Bin\dclocx60.bpl=Borland Sample Imported ActiveX Controls
+c:\program files\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+c:\program files\borland\cbuilder6\Bin\dclindy60.bpl=Internet Direct (Indy) for D6 Property and Component Editors
+c:\program files\borland\cbuilder6\Bin\bcb2kaxserver60.bpl=Borland C++Builder COM Server Components Sample Package
+c:\program files\borland\cbuilder6\Bin\dclado60.bpl=Borland ADO DB Components
+C:\Program Files\Borland\CBuilder6\Bin\dcldb60.bpl=Borland Database Components
+c:\program files\borland\cbuilder6\Bin\dclqrt60.bpl=QuickReport Components
+C:\WINNT\system32\ibevnt60.bpl=Borland Interbase Event Alerter Component
+c:\program files\borland\cbuilder6\Bin\dclbde60.bpl=Borland BDE DB Components
+c:\program files\borland\cbuilder6\Bin\dclcds60.bpl=Borland Base Cached ClientDataset Component
+C:\Program Files\Borland\CBuilder6\Bin\dclmid60.bpl=Borland MyBase DataAccess Components
+c:\program files\borland\cbuilder6\Bin\dclbdecds60.bpl=Borland Local BDE ClientDataset Components
+c:\program files\borland\cbuilder6\Bin\dcltee60.bpl=TeeChart Components
+c:\program files\borland\cbuilder6\Bin\dcltqr60.bpl=TeeChart for QuickReport Components
+c:\program files\borland\cbuilder6\Bin\dclib60.bpl=InterBase Data Access Components
+c:\program files\borland\cbuilder6\Bin\dclclxdb60.bpl=Borland CLX Database Components
+C:\Program Files\Borland\CBuilder6\Bin\dclclxstd60.bpl=Borland CLX Standard Components
+c:\program files\borland\cbuilder6\Bin\DCLNMF60.bpl=NetMasters Fastnet Tools
+c:\program files\borland\cbuilder6\Bin\dcldbx60.bpl=Borland dbExpress Components
+c:\program files\borland\cbuilder6\Bin\dcldbxcds60.bpl=Borland Local DBX ClientDataset Components
+c:\program files\borland\cbuilder6\Bin\dclnet60.bpl=Borland Internet Components
+c:\program files\borland\cbuilder6\Bin\dclsoap60.bpl=Borland SOAP Components
+c:\program files\borland\cbuilder6\Bin\DBWEBXPRT.BPL=Borland Web Wizard Package
+c:\program files\borland\cbuilder6\Bin\dclbcbsmp60.bpl=Borland Sample Controls Design Time Package
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[Linker]
+LibPrefix=
+LibSuffix=
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>

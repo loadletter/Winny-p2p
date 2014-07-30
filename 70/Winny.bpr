@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Winny.exe"/>
+    <OBJFILES value="Winny.obj MainUnit.obj ControlUnit.obj CWork.obj CAutoDownList.obj 
+      CBbsFile.obj CFolder.obj CHost.obj CKey.obj CLongInt.obj CMainControl.obj 
+      md5.obj CQuery.obj CRC4.obj RSA.obj util.obj CKeyBlock.obj AboutUnit.obj 
+      AutoDownUnit.obj NodeAddUnit.obj FolderAddUnit.obj DownParamUnit.obj 
+      IpConvUnit.obj OptionUnit.obj ViewUnit.obj BbsMakeUnit.obj BbsWriteUnit.obj"/>
+    <RESFILES value="Winny.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MainUnit.dfm ControlUnit.dfm AboutUnit.dfm AutoDownUnit.dfm 
+      NodeAddUnit.dfm FolderAddUnit.dfm DownParamUnit.dfm IpConvUnit.dfm 
+      OptionUnit.dfm ViewUnit.dfm BbsMakeUnit.dfm BbsWriteUnit.dfm"/>
+    <LIBFILES value="..\lib600\bcbsmp.lib ..\RichTextView\rich.lib ..\lib600\vclx.lib 
+      ..\lib600\vcl.lib ..\lib600\rtl.lib ..\lib600\cp32mt.lib 
+      ..\lib600\stlpmt.lib ..\lib600\vcle.lib"/>
+    <LIBRARIES value="rich.lib vclx.lib vcldb.lib bcbsmp.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib bcbsmp.lib vcldb.lib vclx.lib rich.lib"/>
+    <PACKAGES value="vcl.bpi vclx.bpi rtl.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Winny.cpp"/>
+    <INCLUDEPATH value=".;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value=".;..\lib600;..\RichTextView;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026 -w-aus"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-Od -Vx -Ve -RT- -X- -r- -a8 -b- -k -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn /n"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -GD -s -Gn -M"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Winny.res" FORMNAME="" UNITNAME="Winny.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Winny.cpp" FORMNAME="" UNITNAME="Winny" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MainUnit.cpp" FORMNAME="MainForm" UNITNAME="MainUnit" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ControlUnit.cpp" FORMNAME="ControlForm" UNITNAME="ControlUnit" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CWork.cpp" FORMNAME="" UNITNAME="CWork" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CAutoDownList.cpp" FORMNAME="" UNITNAME="CAutoDownList" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CBbsFile.cpp" FORMNAME="" UNITNAME="CBbsFile" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CFolder.cpp" FORMNAME="" UNITNAME="CFolder" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CHost.cpp" FORMNAME="" UNITNAME="CHost" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CKey.cpp" FORMNAME="" UNITNAME="CKey" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CLongInt.cpp" FORMNAME="" UNITNAME="CLongInt" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CMainControl.cpp" FORMNAME="" UNITNAME="CMainControl" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="md5.cpp" FORMNAME="" UNITNAME="md5" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CQuery.cpp" FORMNAME="" UNITNAME="CQuery" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CRC4.cpp" FORMNAME="" UNITNAME="CRC4" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RSA.cpp" FORMNAME="" UNITNAME="RSA" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="util.cpp" FORMNAME="" UNITNAME="util" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CKeyBlock.cpp" FORMNAME="" UNITNAME="CKeyBlock" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AboutUnit.cpp" FORMNAME="AboutForm" UNITNAME="AboutUnit" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AutoDownUnit.cpp" FORMNAME="AutoDownForm" UNITNAME="AutoDownUnit" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="NodeAddUnit.cpp" FORMNAME="NodeAddForm" UNITNAME="NodeAddUnit" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FolderAddUnit.cpp" FORMNAME="FolderAddForm" UNITNAME="FolderAddUnit" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DownParamUnit.cpp" FORMNAME="DownParamForm" UNITNAME="DownParamUnit" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="IpConvUnit.cpp" FORMNAME="IpConvForm" UNITNAME="IpConvUnit" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="OptionUnit.cpp" FORMNAME="OptionForm" UNITNAME="OptionUnit" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ViewUnit.cpp" FORMNAME="ViewForm" UNITNAME="ViewUnit" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BbsMakeUnit.cpp" FORMNAME="BbsMakeForm" UNITNAME="BbsMakeUnit" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BbsWriteUnit.cpp" FORMNAME="BbsWriteForm" UNITNAME="BbsWriteUnit" CONTAINERID="C/C++ コンパイラ" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib600\bcbsmp.lib" FORMNAME="" UNITNAME="bcbsmp.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\RichTextView\rich.lib" FORMNAME="" UNITNAME="rich.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib600\vclx.lib" FORMNAME="" UNITNAME="vclx.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib600\vcl.lib" FORMNAME="" UNITNAME="vcl.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib600\rtl.lib" FORMNAME="" UNITNAME="rtl.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib600\cp32mt.lib" FORMNAME="" UNITNAME="cp32mt.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib600\stlpmt.lib" FORMNAME="" UNITNAME="stlpmt.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib600\vcle.lib" FORMNAME="" UNITNAME="vcle.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=2
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1041
+CodePage=932
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=2.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Projects\Bpl\dclusr60.bpl=Borland User Components
+c:\program files\borland\cbuilder6\Bin\dclbcbsmp60.bpl=Borland Sample Controls Design Time Package
+c:\program files\borland\cbuilder6\Bin\dcl31w60.bpl=Delphi 1.0 Compatibility Components
+C:\Program Files\Borland\CBuilder6\Bin\bcbie60.bpl=Borland C++Builder Internet Explorer 5 Components Package
+C:\Program Files\Borland\CBuilder6\Bin\dbx60.bpl=Borland SQL Explorer UI Package
+c:\program files\borland\cbuilder6\Bin\applet60.bpl=Borland Control Panel Applet Package
+c:\program files\borland\cbuilder6\Bin\dclsmpedit60.bpl=Borland Editor Script Enhancements
+c:\program files\borland\cbuilder6\Bin\dclemacsedit60.bpl=Borland Editor Emacs Enhancements
+c:\program files\borland\cbuilder6\Bin\dclact60.bpl=Borland ActionBar Components
+c:\program files\borland\cbuilder6\Bin\idefilters60.bpl=IDE Filters
+c:\program files\borland\cbuilder6\Bin\dclmlwiz60.bpl=Borland Markup Language Wizards
+c:\program files\borland\cbuilder6\Bin\dclocx60.bpl=Borland Sample Imported ActiveX Controls
+c:\program files\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+c:\program files\borland\cbuilder6\Bin\dclindy60.bpl=Internet Direct (Indy) for D6 Property and Component Editors
+c:\program files\borland\cbuilder6\Bin\bcb2kaxserver60.bpl=Borland C++Builder COM Server Components Sample Package
+c:\program files\borland\cbuilder6\Bin\dclado60.bpl=Borland ADO DB Components
+C:\Program Files\Borland\CBuilder6\Bin\dcldb60.bpl=Borland Database Components
+c:\program files\borland\cbuilder6\Bin\dclqrt60.bpl=QuickReport Components
+C:\WINNT\system32\ibevnt60.bpl=Borland Interbase Event Alerter Component
+c:\program files\borland\cbuilder6\Bin\dclbde60.bpl=Borland BDE DB Components
+c:\program files\borland\cbuilder6\Bin\dclcds60.bpl=Borland Base Cached ClientDataset Component
+C:\Program Files\Borland\CBuilder6\Bin\dclmid60.bpl=Borland MyBase DataAccess Components
+c:\program files\borland\cbuilder6\Bin\dclbdecds60.bpl=Borland Local BDE ClientDataset Components
+c:\program files\borland\cbuilder6\Bin\dcltee60.bpl=TeeChart Components
+c:\program files\borland\cbuilder6\Bin\dcltqr60.bpl=TeeChart for QuickReport Components
+c:\program files\borland\cbuilder6\Bin\dclib60.bpl=InterBase Data Access Components
+c:\program files\borland\cbuilder6\Bin\dclclxdb60.bpl=Borland CLX Database Components
+C:\Program Files\Borland\CBuilder6\Bin\dclclxstd60.bpl=Borland CLX Standard Components
+c:\program files\borland\cbuilder6\Bin\DCLNMF60.bpl=NetMasters Fastnet Tools
+c:\program files\borland\cbuilder6\Bin\dcldbx60.bpl=Borland dbExpress Components
+c:\program files\borland\cbuilder6\Bin\dcldbxcds60.bpl=Borland Local DBX ClientDataset Components
+c:\program files\borland\cbuilder6\Bin\dclnet60.bpl=Borland Internet Components
+c:\program files\borland\cbuilder6\Bin\dclsoap60.bpl=Borland SOAP Components
+c:\program files\borland\cbuilder6\Bin\DBWEBXPRT.BPL=Borland Web Wizard Package
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=.;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=.;.\lib600;.\librtv;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+  </IDEOPTIONS>
+</PROJECT>
